@@ -1,0 +1,117 @@
+@media (min-width:992px) and (max-width:1200px) {
+    .slide_text h2,
+    .slide_text h3 {
+        font-size: 35px;
+        letter-spacing: 3px;
+    }
+    .welcome_photo {
+        padding-bottom: 150px;
+    }
+    .welcome_photo img {
+        width: 40%;
+    }
+    .welcome_photo img:nth-child(1) {
+        margin-left: 100px;
+    }
+    .welcome_photo img:nth-child(2) {
+        left: 350px;
+    }
+    .nav_content_area .tab_img img {
+        zoom: .8;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .slide_text h2,
+    .slide_text h3 {
+        font-size: 30px;
+    }
+    .single_service {
+        padding: 40px 20px;
+    }
+    .single_service h3 {
+        font-size: 20px;
+    }
+    .single_service .appointment_btn {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+    .nav_content_area .tab_img img {
+        zoom: .7;
+    }
+    .expert_doctor_slide {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    .slide_text h2,
+    .slide_text h3 {
+        font-size: 33px;
+        letter-spacing: 3px;
+    }
+    .header_social_link ul,
+    .header_top_contact ul {
+        text-align: center;
+    }
+    .welcome_photo img:nth-child(2) {
+        left: 240px !important;
+    }
+    .expert_doctor_slide {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1200px) {
+    .slide_text p {
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 992px) {
+    .header_menu ul li:hover>ul {
+        display: block;
+    }
+    .main_menu ul li a span.plus {
+        display: none;
+    }
+}
+
+@media(max-width:991px) {
+    .main_menu {
+        background: #4c4c4c;
+    }
+    .main_menu ul li a {
+        color: #fff;
+        padding-left: 20px !important;
+    }
+    .main_menu ul li a:hover {
+        border-radius: 6px;
+        background: #ccc;
+        color: #222;
+    }
+    .main_menu ul ul {
+        background: #4c4c4c;
+    }
+    .main_menu ul li ul li a {
+        padding-left: 40px !important;
+    }
+    .welcome_photo {
+        padding-bottom: 150px;
+    }
+    .welcome_photo img {
+        width: 40%;
+    }
+    .welcome_photo img:nth-child(1) {
+        margin-left: 100px;
+    }
+    .welcome_photo img:nth-child(2) {
+        left: 290px;
+    }
+    .expert_area .tabs_nav_area .nav a {
+        font-size: 15px;
+    }
+    .single_recent_post {
+        grid-template-columns: .5fr 5fr;
+    }
+}
