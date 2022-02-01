@@ -1417,3 +1417,50 @@ element page
     border-radius: 30px !important;
     padding: 10px 35px;
 }
+
+
+/* ====================
+contact page
+====================== */
+
+.get_in_touch_area {
+    padding-bottom: 150px;
+}
+
+.google_map_area {
+    padding: 100px 0 50px 0;
+}
+
+.get_in_touch_area .reply_heading h4 {
+    font-size: 27px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+}
+
+.address_area {
+    padding: 50px 0 0 80px;
+}
+
+.single_address {
+    margin-bottom: 25px;
+}
+
+.single_address i {
+    color: #8f9195;
+    font-size: 27px;
+    margin-right: 20px;
+}
+
+.single_address .addr_details h4 {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #2a2a2a;
+}
+
+.single_address .addr_details p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #8a8a8a;
+    margin-bottom: 13px;
+}
