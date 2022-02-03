@@ -1163,7 +1163,7 @@ single blog page css
 
 .border_bottom {
     border-bottom: 1px solid #ddd;
-    margin-top: 30px;
+    margin-top: 95px;
 }
 
 .blog_like {
@@ -1392,6 +1392,7 @@ element page
 .sample_button_area .btn-group a {
     padding: 10px 30px;
     margin-right: 15px;
+    font-size: 14px;
 }
 
 .sample_button_area .btn-group a.btn-link,
@@ -1406,7 +1407,7 @@ element page
 }
 
 .sample_button_area .btn-group.rounded a {
-    border-radius: 3px;
+    border-radius: 3px !important;
 }
 
 .sample_button_area .btn-group.rounded_30 a {
@@ -1416,6 +1417,179 @@ element page
 .sample_button_area .btn-group.rounded_30_ar a {
     border-radius: 30px !important;
     padding: 10px 35px;
+}
+
+.btn_size a {
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.btn_size a:nth-child(1) {
+    padding: 20px 50px;
+}
+
+.btn_size a:nth-child(2) {
+    padding: 17px 45px;
+}
+
+.btn_size a:nth-child(3) {
+    padding: 14px 40px;
+}
+
+.btn_size a:nth-child(4) {
+    padding: 11px 35px;
+}
+
+.btn_size a:nth-child(5) {
+    padding: 5px 30px;
+}
+
+.btn_size .btn-outline-danger {
+    border: 1px solid #dc3545;
+}
+
+.btn_size .btn-outline-info {
+    border: 1px solid #0dcaf0;
+}
+
+
+/* -------text align area------- */
+
+.text_align_area {
+    padding: 50px 0;
+}
+
+.align_heading h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.single_align_text {
+    display: flex;
+    gap: 30px;
+}
+
+.align_text p {
+    color: #4d4d4d;
+}
+
+
+/* ----------defination area------- */
+
+.defination_heading h3 {
+    font-size: 18px;
+}
+
+
+/* -----blockquote area---- */
+
+.blockquote_area .blockquote .quote_text {
+    padding: 30px 50px 30px 30px;
+    background: #f9f9ff;
+    border-left: 2px solid #ff5e13;
+    font-size: 16px;
+    font-style: normal;
+}
+
+
+/* ----table area------ */
+
+.table_area {
+    padding: 50px 0;
+}
+
+.table_area .table {
+    background: #f9f9ff;
+    overflow-x: scroll;
+    padding: 20px 10px;
+    border: 0;
+}
+
+.table_area .table tr {
+    padding: 10px;
+}
+
+.table_area .table tr img {
+    margin-right: 10px;
+}
+
+.table_area .table tbody tr {
+    border-top: 1px solid #edf3fd
+}
+
+.table_area .table .progress {
+    background: none;
+}
+
+.table_area .table thead th {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+/* ----------list area--------- */
+
+.heading_area .clr {
+    color: #828bb2;
+}
+
+.ordered_list ol li {
+    color: #828bb2;
+}
+
+.unordered_list ul li {
+    color: #212529;
+}
+
+.ordered_list ol li,
+.unordered_list ul li {
+    display: block;
+    padding: 5px 0;
+}
+
+.ordered_list ol li ol li,
+.unordered_list ul li ul li {
+    margin-left: 30px;
+}
+
+.ordered_list ol li span,
+.unordered_list ul li i {
+    color: #ff5d15;
+    margin-right: 10px;
+}
+
+
+/* --------form area css------- */
+
+.form_element_area .form_area .form-select {
+    padding-left: 50px;
+}
+
+.form_element_area .form_area .form-select,
+.form_element_area .form_area .form-control {
+    background: #f9f9ff;
+    margin: 7px 0;
+    border: 0;
+    outline: 0;
+}
+
+.form-select:focus {
+    box-shadow: none;
+}
+
+.form_element_area .form_area .form-select option {
+    font-size: 14px;
+}
+
+.form_element_area .form_area .form-select option:hover {
+    color: #ff5d15 !important;
+    background: none;
+}
+
+.form_element_area .form_area .form-control::placeholder {
+    font-size: 14px;
+    font-weight: 300;
+    color: #bbb;
 }
 
 
