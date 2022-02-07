@@ -1527,7 +1527,67 @@ element page
 }
 
 
+/* -----gallery area----- */
+
+.gallery_area .single_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.single_img {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.single_img img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+/* -------popup gallery------ */
+
+.popup_image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .9);
+    z-index: 99910;
+    display: none;
+}
+
+.popup_image i {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    z-index: 99910;
+    font-size: 20px;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.popup_image .popup_box {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* ----------list area--------- */
+
+.list_area {
+    padding: 50px 0;
+}
 
 .heading_area .clr {
     color: #828bb2;
@@ -1556,10 +1616,15 @@ element page
 .unordered_list ul li i {
     color: #ff5d15;
     margin-right: 10px;
+    font-weight: 700;
 }
 
 
 /* --------form area css------- */
+
+.form_element_area {
+    padding-bottom: 50px;
+}
 
 .form_element_area .form_area .form-select {
     padding-left: 50px;
@@ -1590,6 +1655,40 @@ element page
     font-size: 14px;
     font-weight: 300;
     color: #bbb;
+}
+
+
+/* -----form sidebar ----- */
+
+.form_element_area aside {
+    margin-bottom: 30px;
+}
+
+.form_element_area aside ul li {
+    display: block;
+}
+
+.form-check .form-check-input {
+    float: right !important;
+}
+
+.form-check-label {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #4d4d4d;
+    margin-bottom: 13px;
+}
+
+.form-switch,
+.form-check {
+    padding-left: 0;
+}
+
+.form-check-input:checked {
+    background-color: #ee7692;
+    box-shadow: none;
+    border: 0;
 }
 
 

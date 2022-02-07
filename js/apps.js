@@ -54,3 +54,17 @@ const stickyHeader = document.querySelector('.header_menu');
 window.addEventListener('scroll', function() {
     stickyHeader.classList.toggle('sticky', window.scrollY > 300)
 });
+
+
+// popup image 
+
+
+document.querySelectorAll('.gallery_area .single_img img').forEach(image => {
+    image.onclick = () => {
+        document.querySelector('.popup_image').style.display = 'block';
+        document.querySelector('.popup_image img').src = image.getAttribute('src');
+    }
+})
+document.querySelector('.popup_image i').onclick = () => {
+    document.querySelector('.popup_image').style.display = 'none';
+}
