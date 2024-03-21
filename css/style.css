@@ -211,8 +211,8 @@ welcome area
 
 .welcome_photo img:nth-child(2) {
   position: absolute;
-  top: 100px;
-  left: 180px;
+  top: 30%;
+  left: 40%;
 }
 
 .welcome_text h4 {
@@ -497,7 +497,6 @@ expert area
 .tab_img {
   width: 100%;
 }
-
 
 /* -----------------
 .expert doctors area
@@ -1493,7 +1492,6 @@ element page
 }
 
 /* -----gallery area----- */
-
 
 .single_img {
   margin-bottom: 30px;
